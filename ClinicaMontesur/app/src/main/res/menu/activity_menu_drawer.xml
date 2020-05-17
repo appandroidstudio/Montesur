@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:title="Usuario"
+        >
+        <menu>
+            <group android:checkableBehavior="single"
+                >
+                <item
+                    android:id="@+id/medico"
+                    android:icon="@drawable/icono2"
+                    android:title="Médico"
+                    />
+                <item
+                    android:id="@+id/cita"
+                    android:icon="@drawable/icono8"
+                    android:title="Citas"
+                    />
+                <item
+                    android:id="@+id/consulta"
+                    android:icon="@drawable/icono11"
+                    android:title="Configuración"
+                    />
+                <item
+                    android:id="@+id/perfil"
+                    android:icon="@drawable/icono10"
+                    android:title="Perfil"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

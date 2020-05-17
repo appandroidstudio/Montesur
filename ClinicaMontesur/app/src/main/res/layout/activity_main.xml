@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/nombres"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Nombre" />
+    <EditText
+        android:id="@+id/apellidopaterno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="60dp"
+        android:text="Apellido Paterno" />
+    <EditText
+        android:id="@+id/apellidomaterno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="120dp"
+
+        android:text="Apellido Materno" />
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="180dp"
+            android:text="Correo" />
+
+    <EditText
+        android:id="@+id/dni"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="240dp"
+        android:text="DNI" />
+    <EditText
+        android:id="@+id/clave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="300dp"
+        android:text="Correo" />
+    <Button
+        android:id="@+id/btningresar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:text="Registrate" />
+</RelativeLayout>
+</LinearLayout>
+

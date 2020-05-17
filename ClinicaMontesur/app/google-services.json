@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "656908110767",
+    "firebase_url": "https://clinicas-38555.firebaseio.com",
+    "project_id": "clinicas-38555",
+    "storage_bucket": "clinicas-38555.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908110767:android:5e69feed1ecc25eb507d5a",
+        "android_client_info": {
+          "package_name": "com.morangesoft.clinicamontesur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908110767-dhnagd1frhndtsho48049t2hik8gfss2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWy8-d1GxjB0k51WGFwkx8Iw9T7DBuLVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908110767-dhnagd1frhndtsho48049t2hik8gfss2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
